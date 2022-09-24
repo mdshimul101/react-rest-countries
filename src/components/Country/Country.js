@@ -8,7 +8,7 @@ const Country = (props) => {
             <img src={flags.svg} alt="" />
 
             <h4>Capital : {capital}</h4>
-            <p>Area : {area}</p>
+            <p>Area : {area} km²</p>
             <p>Region : {region}</p>
         </div>
     );
